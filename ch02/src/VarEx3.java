@@ -33,6 +33,20 @@ public class VarEx3 {
 		System.out.println(10f); //10.0, 접미사는 출력되지 않음
 		System.out.println(1e3); //1000.0
 		
+		char ch = 'A'; 
+		int i = 'A';
+		System.out.println(ch); //A
+		System.out.println(i); //65. A의 문자코드 출력
+		
+		String str = ""; //빈문자열
+		String str2 = "ABCD";
+		String str3 = "123";
+		String str4 = str2 + str3; 
+		System.out.println(str4); //ABCD123
+		
+		//문자열결합
+		System.out.println(""+7+7); //77
+		System.out.println(7+7+""); //14
 
 	}
 
