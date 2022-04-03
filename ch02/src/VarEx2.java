@@ -14,7 +14,8 @@ public class VarEx2 {
 		System.out.println("y=" + y); //y=4
 		System.out.println("tmp=" + tmp); //tmp=4
 
-		
+		float xs = 10;
+		System.out.println(xs);
 	}
 
 }
