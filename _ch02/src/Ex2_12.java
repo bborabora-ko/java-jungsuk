@@ -10,8 +10,11 @@ public class Ex2_12 {
 		System.out.println("3" + 1); //문자열 31
 		
 		System.out.println('3' - '0'); //숫자3
-		System.out.println(3 + '0'); //51
+		System.out.println(3 + '0'); //51 -> 형변환을 해야 문자3 나옴
 		System.out.println((char)(3 + '0'));//문자3
+		
+		char cha = 65;
+		System.out.println(cha);
 
 		
 		
