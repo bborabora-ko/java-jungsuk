@@ -12,5 +12,7 @@ public class Ex4_7 {
 		for (int i = 0; i <= 20; i++) {
 			System.out.println((int) (Math.random() * 11) - 5); 
 		}
+
 	}
 }
+
