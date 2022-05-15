@@ -13,6 +13,20 @@ public class Ex5_1 {
 		
 		int value = score[3];
 		System.out.println("value=" + value);
+		
+		
+		//배열의 길이 예제
+		int[] arr = new int[5]; // 배열의 길이가 5인 배열arr생성
+		System.out.println("arr.length=" + arr.length);
+		
+		//배열의 모든 요소 출력
+		for(int i = 0; i < arr.length; i++) {
+			System.out.printf("arr[%d]=%d%n", i, arr[i]);
+		}
+		
+		
 	}
+	
+	
 
 }
