@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Ex5_1 {
 	public static void main(String[] args) {
@@ -24,6 +25,11 @@ public class Ex5_1 {
 			System.out.printf("arr[%d]=%d%n", i, arr[i]);
 		}
 		
+		
+		//배열의 출력
+		int[] iArr = {100, 95, 80, 70, 60};
+		System.out.println(iArr); //[I@357246de
+		System.out.println(Arrays.toString(iArr)); //[100, 95, 80, 70, 60]
 		
 	}
 	
