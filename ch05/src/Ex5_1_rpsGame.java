@@ -1,7 +1,5 @@
-import java.util.Arrays;
-import java.util.Scanner;
 
-import javax.imageio.metadata.IIOMetadataFormat;
+import java.util.Scanner;
 
 public class Ex5_1_rpsGame {
 
@@ -58,7 +56,8 @@ public class Ex5_1_rpsGame {
 				System.out.println("잘못 입력하셨습니다.");
 			}
 		}
-
+		
+		scanner.close();
 	}
 
 }
