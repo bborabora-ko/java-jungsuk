@@ -12,9 +12,9 @@ public class Ex6_4 {
 		System.out.println(result3);
 		System.out.println(result4);
 		
-		long result5 = mm.large(5, 3);
-		long result6 = mm.large(4, 10);
-		long result7 = mm.large(5, 5);
+		long result5 = mm.max(5, 3);
+		long result6 = mm.max(4, 10);
+		long result7 = mm.max(5, 5);
 		System.out.println(result5);
 		System.out.println(result6);
 		System.out.println(result7);
@@ -35,7 +35,7 @@ class MyMath{ //사칙연산 메서드를 가진 클래스MyMath
 		return a/b;
 	}
 	//두 값을 받아서 둘중 큰값을 반환하는 메서드
-	long large(long a, long b) {
+	long max(long a, long b) {
 		if(a > b) {
 			return a;			
 		} else if (a < b) {
@@ -44,4 +44,5 @@ class MyMath{ //사칙연산 메서드를 가진 클래스MyMath
 			return 0;
 		}
 	}
+	
 }
