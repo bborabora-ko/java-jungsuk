@@ -18,5 +18,6 @@ class Child2 extends Parent2{
 		System.out.println("x=" + x); //10. 가까운 x인 super.x가 출력
 		System.out.println("super.x=" + super.x); //10
 		System.out.println("this.x=" + this.x); //10
+		
 	}
 }
